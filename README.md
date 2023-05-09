@@ -8,4 +8,6 @@
 > 其中`-D`是参数固定写法，`server.port=`后面跟复制实例的端口，**切记不能和已有端口冲突**
 
 ## nacos启动命令
+在nacos的**bin**目录的黑窗口中输入
 `startup.cmd -m standalone`
+> 不启动nacos会导致service不能启动
