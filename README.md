@@ -6,3 +6,6 @@
 3. ![image](https://user-images.githubusercontent.com/119733736/236849547-32c6ea23-1fe0-49c1-aa97-479745c748ae.png)
 4. ![image](https://user-images.githubusercontent.com/119733736/236849684-08120b27-49bc-4e33-8606-64fed9954f77.png)
 > 其中`-D`是参数固定写法，`server.port=`后面跟复制实例的端口，**切记不能和已有端口冲突**
+
+## nacos启动命令
+`startup.cmd -m standalone`
