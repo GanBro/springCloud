@@ -1,4 +1,4 @@
-# 笔记
+# 第一天记录(2023/5/8)
 
 ## 复制多个实例方法
 1. ![image](https://user-images.githubusercontent.com/119733736/236849370-a3d71cdd-bc5b-4c9b-8a14-af8abd756e1f.png)
@@ -11,3 +11,11 @@
 在nacos的**bin**目录的黑窗口中输入
 `startup.cmd -m standalone`
 > 不启动nacos会导致service不能启动
+
+# 第二天记录(2023/5/9 22:05)
+
+## 多种配置的优先级
+![image](https://github.com/GanBro/springCloud/assets/119733736/5a534df1-a62d-478c-b432-d29dd67ed8bf)
+
+
+
