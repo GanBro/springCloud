@@ -16,6 +16,8 @@
 
 # 第二天记录(2023/5/9 22:05)
 
+注: 每次启动记得开启1个单例**nacos**，三个集群**nacos**，并且开启**nginx**
+
 ## 多种配置的优先级
 ![image](https://github.com/GanBro/springCloud/assets/119733736/5a534df1-a62d-478c-b432-d29dd67ed8bf)
 
