@@ -13,7 +13,7 @@ spring:
       server-addr: localhost:8848 # nacos服务地址
       discovery:
         cluster-name: HZ # 集群名称
-        namespace: ebc2d766-effd-4eaf-9c7d-ed3f733c0990 # dev环境
+#        namespace: ebc2d766-effd-4eaf-9c7d-ed3f733c0990 # dev环境
         ephemeral: false # 是否是临时实例
 mybatis:
   type-aliases-package: cn.itcast.user.pojo
@@ -36,3 +36,8 @@ ribbon:
     enabled: true # 开启饥饿加载
     clients:
       - userservice
+feign:
+  httpclient:
+    enabled: true # 支持HttpClient的开关
+    max-connections: 100 # 最大连接数
+    max-connections-per-route: 50 # 单个路径的最大连接数
