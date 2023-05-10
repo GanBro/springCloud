@@ -10,6 +10,7 @@
 ## nacos启动命令
 在nacos的**bin**目录的黑窗口中输入
 `startup.cmd -m standalone` 单个nacos
+
 `startup.cmd` nacos集群
 > 不启动nacos会导致service不能启动
 
