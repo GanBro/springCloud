@@ -18,7 +18,7 @@
 ![image](https://github.com/GanBro/springCloud/assets/119733736/5a534df1-a62d-478c-b432-d29dd67ed8bf)
 
 ## 踩坑(2023/5/10 19.48)
-老师自己偷偷把把dev空间删了以及将端口号改了,导致我自己服务不能访问,需要将orderservice的dev命名空间注释掉
+老师自己偷偷把把dev空间删了以及将端口号改了,导致我自己服务不能访问,需要将**orderservice**的**dev**命名空间注释掉
 ![image](https://github.com/GanBro/springCloud/assets/119733736/6d1de345-bcaa-4b91-b813-f4b79fd4acb1)
 
 
