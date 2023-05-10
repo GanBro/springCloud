@@ -9,13 +9,21 @@
 
 ## nacos启动命令
 在nacos的**bin**目录的黑窗口中输入
-`startup.cmd -m standalone`
+`startup.cmd -m standalone` 单个nacos
+
+`startup.cmd` nacos集群
 > 不启动nacos会导致service不能启动
 
 # 第二天记录(2023/5/9 22:05)
 
+注: 每次启动记得开启1个单例**nacos**，三个集群**nacos**，并且开启**nginx**
+
 ## 多种配置的优先级
 ![image](https://github.com/GanBro/springCloud/assets/119733736/5a534df1-a62d-478c-b432-d29dd67ed8bf)
+
+## 踩坑(2023/5/10 19.48)
+老师自己偷偷把把dev空间删了以及将端口号改了,导致我自己服务不能访问,需要将**orderservice**的**dev**命名空间注释掉
+![image](https://github.com/GanBro/springCloud/assets/119733736/6d1de345-bcaa-4b91-b813-f4b79fd4acb1)
 
 
 
